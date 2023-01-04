@@ -11,9 +11,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val activity = Activity()
-        activity.keyboard.toString()
-        activity.memory.toString()
-        activity.monitor.toString()
-        activity.mouse.toString()
+//        activity.keyboard.toString()
+//        activity.memory.toString()
+//        activity.monitor.toString()
+//        activity.mouse.toString()
+        activity.computer.toString()
     }
 }

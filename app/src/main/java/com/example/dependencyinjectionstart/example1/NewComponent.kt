@@ -2,12 +2,8 @@ package com.example.dependencyinjectionstart.example1
 
 import dagger.Component
 
-@Component
+//used module for constructors items
+@Component(modules = [ComputerModule::class])
 interface NewComponent {
     fun inject(activity: Activity)
-
-//    fun getKeyboard(): Keyboard
-//    fun getMemory(): Memory
-//    fun getMonitor(): Monitor
-//    fun getMouse(): Mouse
 }
